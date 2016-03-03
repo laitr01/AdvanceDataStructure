@@ -209,8 +209,8 @@ public class MapGraph {
 		
 		// You can use this method for testing.  
 		
-		/* Use this code in Week 3 End of Week Quiz
-		MapGraph theMap = new MapGraph();
+		// Use this code in Week 3 End of Week Quiz
+		theMap = new MapGraph();
 		System.out.print("DONE. \nLoading the map...");
 		GraphLoader.loadRoadMap("data/maps/utc.map", theMap);
 		System.out.println("DONE.");
@@ -222,7 +222,7 @@ public class MapGraph {
 		List<GeographicPoint> route = theMap.dijkstra(start,end);
 		List<GeographicPoint> route2 = theMap.aStarSearch(start,end);
 
-		*/
+		
 		
 	}
 	

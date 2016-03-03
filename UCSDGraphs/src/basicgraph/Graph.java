@@ -126,7 +126,7 @@ public abstract class Graph {
 		List< Integer> dSequences = new ArrayList<Integer>();
 		int v = getNumVertices();
 		for(int i =0; i < v; i++ ){
-			dSequences.add(getNeighbors(i).size());
+			dSequences.add(getNeighbors(i).size() + getInNeighbors(i).size());
 		}
 		
 		Object[] arrTemp = dSequences.toArray();
